@@ -8,7 +8,7 @@
    - `./debug_binary`: To run the debug version.
    - `./optimized_binary`: To run the optimized version.
 
-# Q1. Property Profit and LTCG Tax Calculator
+# Q1. Property Profit and LTCG Tax Calculation
 
 ## Overview
 In the first question, we computes the selling price of a property and the Long-Term Capital Gains (LTCG) tax based on historical inflation and property growth rates. It uses data from a CSV file to determine the inflation and property growth rates for specific years. The calculation considers the purchase year, cost price, and selling year provided by the user.
