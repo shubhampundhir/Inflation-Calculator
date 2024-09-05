@@ -4,7 +4,7 @@
 
 1. Place the `Makefile` in the root directory of your project folder.
 2. Open the terminal and use the following commands:
-   - `make`: To build the executables.(Both debug, optimized)
+   - `make`: To build the executables (Both debug, optimized).
    - `./debug_binary`: To run the debug version.
    - `./optimized_binary`: To run the optimized version.
 
@@ -65,7 +65,7 @@ Performs the main calculations: profit factor, actual profit, selling price, and
 
 ## File Structure
 - **`price-inflation.csv`**: CSV file containing yearly inflation and property growth data in the format `Year, PropertyRate, InflationRate`.
-- **`main.cpp`**: Contains the program's main logic and execution flow.
+- **`assignment1_Q1.cpp`**: Contains the program's main logic and execution flow.
 
 ## Example CSV File (`price-inflation.csv`):
 Year,PropertyRate,InflationRate 2001,4.5,3.2 2002,5.0,3.0 ...
