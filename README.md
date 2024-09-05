@@ -32,7 +32,7 @@ The user provides the following:
 ### 3. Profit Factor Calculation:
 For each year between the purchase and selling years, the profit factor is calculated as:
 
-**profitFactor** = ∏ from year = purchaseYear+1 to sellingYear (1 + (growthRate - inflationRate) / 100)
+**profitFactor** = ∏ from purchaseYear+1 to sellingYear * (1 + (growthRate - inflationRate) / 100)
 
 Where:
 - `growthRate`: Property rate growth for each year.
