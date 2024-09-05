@@ -31,39 +31,30 @@ The user provides the following:
 
 ### 3. Profit Factor Calculation:
 For each year between the purchase and selling years, the profit factor is calculated as:
-$$
-\[
-\text{profitFactor} = \prod_{year=purchaseYear+1}^{sellingYear} \left(1 + \frac{\text{growthRate} - \text{inflationRate}}{100}\right)
-\]
-$$
+
+**profitFactor** = ∏ from year = purchaseYear+1 to sellingYear (1 + (growthRate - inflationRate) / 100)
+
 Where:
 - `growthRate`: Property rate growth for each year.
 - `inflationRate`: Inflation rate for each year.
 
 ### 4. Actual Profit Calculation:
 The actual profit is computed using the formula:
-$$
-\[
-\text{actualProfit} = \text{costPrice} \times \text{profitFactor} - \text{costPrice}
-\]
-$$
+
+**actualProfit** = costPrice * profitFactor - costPrice
+
 ### 5. Selling Price Calculation:
 The selling price is derived as:
-$$
-\[
-\text{reducedProfit} = 0.80 \times \text{actualProfit}
-\]
-\[
-\text{sellingPrice} = \text{costPrice} + \text{reducedProfit}
-\]
-$$
+
+**reducedProfit** = 0.80 * actualProfit 
+
+**sellingPrice** = costPrice + reducedProfit
+
 ### 6. LTCG (Long-Term Capital Gains) Calculation:
 The LTCG is computed at a 20% tax rate on the actual profit:
-$$
-\[
-\text{LTCG} = 0.20 \times \text{actualProfit}
-\]
-$$
+
+**LTCG** = 0.20 * actualProfit
+
 ## Program Structure
 
 ### Class `InflationRate`:
